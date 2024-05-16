@@ -1,0 +1,165 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+.h1{
+    text-align: center;
+}
+
+.overflow{
+    overflow-y: auto;
+    overflow-x: auto;
+    overflow: auto;
+}
+
+.bordes{
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+.fondo{
+    background-color: #6E5036;
+}
+#subrayado {
+    text-decoration: underline;
+}
+
+
+.letras {
+    color: white;
+    text-align: center;
+}
+
+.fondo2{
+    background-color: rgba(6, 77, 6, 0.747);
+    overflow: auto;
+}
+
+
+
+.contenedor{
+    display: grid;
+    padding: 10px;
+    gap: 100px;
+
+}
+
+.item1{
+    border: white solid 3px;
+    background-color: #6E5036;
+    color: white;
+}
+.item2{
+    border: white solid 3px;
+    background-color: #6E5036;
+    color: white;
+}
+.item3{ 
+    border: white solid 3px;
+    background-color: #6E5036;
+    color: white;
+}
+.item4{
+    border: white solid 3px;
+    background-color: #6E5036;
+    color: white;
+}
+.item5{
+border: white solid 3px;
+background-color: #6E5036;
+color: white;
+}
+.item6{
+    border: white solid 3px;
+    background-color: #6E5036;
+    color: white;
+}
+.item7{
+    border: white solid 3px;
+    background-color: #6E5036;
+    color: white;
+}
+
+
+nav{
+    padding: 15px;
+    text-align: center;
+    margin-block-start: 25px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border: rgb(255, 255, 255) 5px solid;
+    border-radius: 300px;
+    list-style: none;
+    display: inline-block;
+}
+
+.letras2{
+    color: white;
+    margin-top: 30px;
+}
+.right{
+    text-align: right;
+    overflow-x: hidden;
+}
+
+
+.redes{
+    color: white;
+    background-color: #6E5036;
+    text-align: center;
+    border: rgb(255, 255, 255) 3px solid;
+    margin-block-start: 25px;
+    padding: 25px;
+    font-size: 30px;
+}
+
+
+.mate{
+    margin-top: 20px;
+    padding-block-start: 5px;    
+}
+
+
+.esp-r{
+    background-color: #6E5036;
+    border: rgb(255, 255, 255) solid 3px;
+    color: white;
+    border-radius: 25px;
+    margin-top: 25px;
+    padding: 20px;
+}
+
+.esp-l{
+    background-color: #6E5036;
+    border: rgb(255, 255, 255) solid 3px;
+    color: white;
+    text-align: right;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+.bene{
+    padding: 20px;
+    border: white solid 3px;
+}
+
+
+.letras3{
+    color: white;
+    padding: 5px;
+    margin-top: 15px;
+    background-color: #6E5036;
+}
+@media only screen and (min-width:480px){
+    
+    .contenedor{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        overflow-x: auto;
+    }
+}
+

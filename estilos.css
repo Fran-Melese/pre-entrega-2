@@ -11,9 +11,8 @@
 }
 
 .overflow{
-    overflow-y: auto;
-    overflow-x: auto;
-    overflow: auto;
+    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .bordes{
@@ -89,8 +88,8 @@ nav{
     padding: 15px;
     text-align: center;
     margin-block-start: 25px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 50%;
+    margin-right: 50%;
     border: rgb(255, 255, 255) 5px solid;
     border-radius: 300px;
     list-style: none;
